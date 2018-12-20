@@ -17,6 +17,12 @@
 	<preference name="fullscreen" value="true" />
 	<preference name="target-device" value="universal" />
 	<allow-navigation href="http://thermo.adhi.asia/*" />
+	<allow-intent href="*" />
+	<allow-navigation href="*" />
+	<allow-navigation href="http://*/*" />
+	<allow-navigation href="https://*/*" />
+	<allow-navigation href="data:*" />
+	<access origin="*" />
 	<!-- Optional splash screen image, e.g.: -->
 	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
 
