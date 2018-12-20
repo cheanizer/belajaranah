@@ -10,13 +10,13 @@
 
 	<preference name="permissions" value="none"/>
 	<preference name="android-targetSdkVersion" value="19" />
-	<allow-navigation href="http://thermo.adhi.asia/*" />
+	<allow-navigation href="*" />
 	<plugin name="cordova-plugin-media" spec="^3.0.1" />
 	
 	<preference name="orientation" value="portrait" />
 	<preference name="fullscreen" value="true" />
 	<preference name="target-device" value="universal" />
-	<access origin="*.adhi.*" />
+	<access origin="*" />
 
 	<!-- Optional splash screen image, e.g.: -->
 	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
